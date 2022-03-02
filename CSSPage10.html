@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input:focus{
+            border:2px solid:green;
+            padding:10px;
+        }
+        input:enabled{
+            color: red;
+            font-weight:bold;
+        }
+        input:disabled{
+            color:blue;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <form>
+
+        이름 : <input type="test" name="uname"/><br/>
+        아이디 : <input type="test" name="uid"/><br/>
+        비밀번호 : <input type="password" name="upw" value="12345" disabled="disabled"/><br/>
+
+    </form>
+</body>
+</html>
