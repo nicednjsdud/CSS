@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>visibility 속성</title>
+    <style>
+        #display-none div:nth-child(1){
+        width:100px;
+        height:100px;
+        background-color:red;
+        color:white;
+        font-weight:bold;
+        text-align:center;
+        }
+        #display-none div:nth-child(2){
+        width:100px;
+        height:100px;
+        background-color:blue;
+        color:white;
+        font-weight:bold;
+        text-align:center;
+        display:none;
+        }
+        #display-none div:nth-child(3){
+        width:100px;
+        height:100px;
+        background-color:blue;
+        color:white;
+        font-weight:bold;
+        text-align:center;
+        }
+        #visibility-hidden div:nth-child(1){
+        width:100px;
+        height:100px;
+        background-color:red;
+        color:white;
+        font-weight:bold;
+        text-align:center;
+
+        }
+    #visibility-hidden div:nth-child(2){
+        width:100px;
+        height:100px;
+        background-color:red;
+        color:white;
+        font-weight:bold;
+        text-align:center;
+        visibility:hidden;
+        }
+        #visibility-hidden div:nth-child(3){
+        width:100px;
+        height:100px;
+        background-color:blue;
+        color:white;
+        font-weight:bold;
+        text-align:center;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="display-none">
+        <div>
+        content1
+        </div>
+        <div>
+        content2
+          </div>
+          <div>
+        content3
+         </div>
+    </div>
+    <div id="visibility-hidden">
+        <div>
+            content1
+        </div>
+        <div>
+            content2
+        </div>
+        <div>
+            content3
+        </div>
+
+    </div>
+
+</body>
+</html>

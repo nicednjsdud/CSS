@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    #wrap #content1 p:nth-child(2n){ background:green;}
+    #wrap #content2 p:nth-child(2n){ background:blue;}
+    #content1,#content2{ width:600px; margin:0 auto; padding:20px; border: 1px solid #cccccc;
+    color : #333333; font-weight:bold;}
+    #content1 p:nth-child(1){font-size : 100%;}
+    #content1 p:nth-child(2){font-size : 120%;}
+    #content1 p:nth-child(3){font-size : 1.4em;}
+    #content1 p:nth-child(4){font-size : 160%;}
+    #content1 p span{ display:block; color:yellow; font-weight:bold; font-size:0.5em;}
+
+  </style>
+</head>
+<body>
+  <div id="wrap">
+  <div id="content1">
+    <p>
+      I love you.<span>2006년 7월 19일 개정</span>
+    </p>
+    <p>
+      I love you<span>2006년 7월 19일 개정</span>
+    </p>
+    <p>
+      I love you.<span>2006년 7월 19일 개정</span>
+    </p>
+    <p>
+      I love you.<span>2006년 7월 19일 개정</span>
+    </p>
+  </div>
+    <div id="content2">
+      <p>
+        I love you.<span>2006년 7월 19일 개정</span>
+      </p>
+      <p>
+        I love you.<span>2006년 7월 19일 개정</span>
+      </p>
+      <p>
+        I love you.<span>2006년 7월 19일 개정</span>
+      </p>
+      <p>
+        I love you.<span>2006년 7월 19일 개정</span>
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
